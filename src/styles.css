@@ -7,6 +7,17 @@ body {
   padding: 60px;
 }
 
+button {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 5rem;
+}
+
 input {
   background-color: white;
   border-radius: 5px;
@@ -61,3 +72,8 @@ h3 {
 .card img {
   width: 100%;
 }
+
+.center-form {
+  display: inline-flex;
+}
+
