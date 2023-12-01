@@ -17,7 +17,7 @@ export const GifExpertApp = () => {
     
     <>
       <div className='center-form'>
-      <h1>GifsExpertApp..</h1> 
+      <h1 className='title__form'>What kind of Gift do you want to search..?</h1> 
         <AddCategory 
           onNewCategory={ event => onAddCategory(event)}          
         />
