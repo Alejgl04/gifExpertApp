@@ -48,6 +48,9 @@ input {
   padding: 10px 15px;
   width: 100%;
 }
+hr {
+  color: #fff;
+}
 
 h1 {
   margin: 0;
