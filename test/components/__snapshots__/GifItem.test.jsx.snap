@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing on GifItem should be match snapshop 1`] = `
+<div>
+  <div
+    class="col-md-3"
+  >
+    <div
+      class="card"
+    >
+      <img
+        alt="Spiderman"
+        class="card-img-top custom__height"
+        src="https://spiderman.com/spiderman.jpg"
+      />
+      <div
+        class="card-body"
+      >
+        <h6
+          class="card-title"
+        >
+          Spiderman
+        </h6>
+      </div>
+    </div>
+  </div>
+</div>
+`;
