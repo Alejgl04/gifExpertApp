@@ -1,5 +1,7 @@
+import PropTypes from 'prop-types';
 import { GifItem } from './GifItem';
 import { useFetchGifs } from '../hooks/gift/useFetchGifs';
+
 
 export const GifGrid = ({ category }) => {
   const { images, isLoading } = useFetchGifs( category );
@@ -9,8 +11,8 @@ export const GifGrid = ({ category }) => {
       {
         isLoading && ( <h2 className='text-center text-white'>Loading...</h2> )
       }
+      <h3 className='text-center text-white'>{category}</h3>
       
-      <h3 className='text-center text-white'>{ category }</h3>
       <div className="container text-center">
       <div className="row align-items-start">
         {
@@ -25,4 +27,8 @@ export const GifGrid = ({ category }) => {
       </div>
     </>
   )
+}
+
+GifGrid.propTypes = {
+  category: PropTypes.string.isRequired,
 }
